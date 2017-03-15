@@ -4,7 +4,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(
-    format={"pretty"},
+    plugin={"pretty"},
     glue={"com.thd.automation"},
     features={"src/test/resources"}
     )
