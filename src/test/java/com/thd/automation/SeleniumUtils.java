@@ -46,7 +46,7 @@ public class SeleniumUtils
         try
         {
             driver.get("http://www.homedepot.com");
-            Thread.sleep(3);
+            Thread.sleep(3000);
             return true;
         }
         catch(Exception ex)
@@ -62,11 +62,11 @@ public class SeleniumUtils
         {
             driver.findElement(searchItem).sendKeys(arg1);
             
-            Thread.sleep(1);
+            Thread.sleep(1000);
             
             driver.findElement(searchButton).click();
             
-            Thread.sleep(3);
+            Thread.sleep(3000);
             
             return true;
         }
