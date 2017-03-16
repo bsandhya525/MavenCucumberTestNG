@@ -123,7 +123,7 @@ public class SeleniumUtil
                 }
             }
         }
-        while(driver.findElement(elm).isDisplayed()&& counter < 3);
+        while(counter < 3);
         
         return false;
     }
