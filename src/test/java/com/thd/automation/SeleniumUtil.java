@@ -61,7 +61,7 @@ public class SeleniumUtil
         {
             driver.findElement(searchItem).sendKeys(arg1);
             
-            Thread.sleep(1000);
+            Thread.sleep(2000);
             
             driver.findElement(searchButton).click();
             
