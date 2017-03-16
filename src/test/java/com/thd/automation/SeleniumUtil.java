@@ -66,7 +66,7 @@ public class SeleniumUtil
             driver.findElement(searchButton).click();
             
 
-            Thread.sleep(3000);
+            Thread.sleep(6000);
 
             
             return true;
